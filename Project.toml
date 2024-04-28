@@ -1,0 +1,15 @@
+[package]
+name = "CODEMAGE"
+uuid = "a1234567-89ab-cdef-0123-456789abcdef"  # Replace with a unique UUID
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+description = "Your spells for crafting Julia programs. A collection of utilities and shortcuts to enhance your Julia coding experience with a touch of arcane power."
+
+[dependencies]
+Julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5b08-85f4-124f016c19b8"
+
+[targets]
+test = ["Test"]
